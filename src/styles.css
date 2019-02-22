@@ -1,0 +1,107 @@
+/*Calculator styles*/
+.App {
+  border-style: solid;
+  border-width: 2px;
+  width: 300px;
+  height: 460px;
+  font-family: "Helvetica Neue";
+  font-weight: 250;
+  background: #939393;
+}
+
+.display {
+  width: 250px;
+  height: 49px;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  margin-top: 23px;
+  margin-left: 25px;
+  margin-right: 12px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  direction: rtl;
+  text-overflow: ellipsis;
+}
+
+.result {
+  width: 250px;
+  height: 37px;
+  color: lightgrey;
+  text-align: right;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+
+.clear {
+  width: 116px;
+  height: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.clear:active {
+  background: lightgrey;
+}
+
+.keypad {
+  margin-left: 25px;
+}
+
+.operation {
+  width: 48px;
+  height: 41px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  background: #50b3e8;
+  text-align: center;
+  font-size: 31px;
+  margin-top: 23px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.operation:active {
+  background: #2e86c1;
+}
+
+.number {
+  width: 48px;
+  height: 40px;
+  border-style: solid;
+  border-width: 2px;
+  background: white;
+  color: #6c6c6c;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 250;
+  margin-top: 23px;
+  margin-right: 13px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.number:active {
+  background: #808b96;
+}
+
+.last-number {
+  width: 163px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.keypad-row {
+  display: flex;
+}
